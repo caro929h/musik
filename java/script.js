@@ -5,7 +5,7 @@ fetch("https://musik-cab7.restdb.io/rest/music", {
   },
 });
 
-.then((e)=>e.json())
+.then((e) => e.json())
 .then(showMusics);
 
 function showMusics(music) {
