@@ -1,0 +1,44 @@
+/* Generelt CSS */
+
+body {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 20px;
+}
+
+section {
+  max-width: 1200px;
+  height: auto;
+  padding: 20px;
+}
+
+main {
+  max-width: 1600px;
+  height: auto;
+}
+
+header {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* MAIN MENU */
+.main-menu {
+  margin-left: 78%;
+  margin-top: -5%;
+  font-size: 1.1rem;
+  color: #4e4035;
+  text-decoration: underline;
+  justify-content: space-between;
+  display: flex;
+}
+
+/* MENU */
+.menu {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: rgb(41, 40, 40);
+  display: flex;
+  justify-content: left;
+  text-decoration: none;
+}

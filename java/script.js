@@ -5,8 +5,17 @@ fetch("https://musik-cab7.restdb.io/rest/music", {
   },
 });
 
-then((e) => e.json()).then(doSomething);
+.then((e)=>e.json())
+.then(showMusics);
 
-function doSomething(data) {
-  console.log(data);
+function showMusics(music) {
+  products.forEach(showMusic);
+}
+
+function showMusic(music) {
+  console.log(music);
+  //fang template
+  const template = document.querySelector("#song_template").content;
+  //lav en kopi
+  const copy = template.cloneNode(true);
 }
