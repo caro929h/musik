@@ -38,12 +38,17 @@ div {
   color: #594223;
 }
 
+.text_about {
+  padding-bottom: 2rem;
+}
+
 .grid_1-1-1-about {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
   padding-bottom: 10px;
   padding-top: 5rem;
+  background-color: #594223;
 }
 
 @media (max-width: 800px) {
