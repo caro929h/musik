@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --primary: red;
+  --secondary: white;
+  --background: #fbf8ef;
+}
+
+body,
+html {
+  height: 100%;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+h5 {
+  font-family: "Hind Guntur", sans-serif;
+  text-align: center;
+  padding-top: 130px;
+  color: #f5ba0a;
+  font-size: 2rem;
+}
+
+div {
+  padding-top: 40px;
+  padding-left: 90px;
+  padding-right: 90px;
+  color: #594223;
+}
+
+.grid_1-1-1-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  padding-bottom: 10px;
+  padding-top: 5rem;
+}
+
+@media (max-width: 800px) {
+  .grid_1-1-1-about {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 50px;
+    align-items: center;
+  }
+  div {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  h5 {
+    text-align: center;
+    padding-top: 9rem;
+    padding-bottom: 10rem;
+  }
+}
