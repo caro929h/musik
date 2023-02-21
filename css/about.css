@@ -27,7 +27,7 @@ h5 {
   font-family: "Hind Guntur", sans-serif;
   text-align: center;
   padding-top: 130px;
-  color: #f5ba0a;
+  color: #f48100;
   font-size: 2rem;
 }
 
@@ -46,7 +46,7 @@ div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
-  padding-bottom: 10px;
+  padding-bottom: 5rem;
   padding-top: 5rem;
   background-color: #594223;
 }
