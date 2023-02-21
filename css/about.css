@@ -42,13 +42,13 @@ div {
   padding-bottom: 2rem;
 }
 
-img {
+.grid_1-1-1-about img {
   width: 100%;
-  transition: 0.5s all ease-in-out;
+  transition: transform 0.2s;
 }
 
-.img:hover {
-  transform: scale (1.2);
+.grid_1-1-1-about img:hover {
+  transform: scale(1.1);
 }
 
 .grid_1-1-1-about {
