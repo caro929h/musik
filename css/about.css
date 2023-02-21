@@ -42,6 +42,15 @@ div {
   padding-bottom: 2rem;
 }
 
+img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.img:hover {
+  transform: scale (1.2);
+}
+
 .grid_1-1-1-about {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
