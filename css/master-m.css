@@ -11,7 +11,7 @@
   --colour-contrast: #000;
 }
 
-* {
+/** {
   margin: 0;
   padding: 0;
   border: 0;
@@ -27,7 +27,7 @@
   transition-property: box-shadow, background, border-color, color, fill, stroke;
   transition-duration: 175ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+}*/
 
 body {
   min-height: 100vh;
