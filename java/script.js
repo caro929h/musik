@@ -36,9 +36,7 @@ if (!template || !list) {
 
     copy.querySelector(".artist").textContent = song["artist"];
 
-    copy.querySelector(".info-release").textContent = new Date(
-      song["released"]
-    ).getUTCFullYear();
+    copy.querySelector(".info-release").textContent = new Date(song["released"]).getUTCFullYear();
 
     copy.querySelector(".info-length").textContent = toMinsAndSecs(millis);
 
