@@ -24,7 +24,7 @@
 
   <body>
     <header>
-      <img src="/galleri/ClassicRoots.svg" alt="" />
+      <img src="galleri/logo.svg" alt="" />
 
       <nav>
         <a href="index.html"> Forside </a>
@@ -34,114 +34,65 @@
 
       <button class="button"><a href="contact.html">Submit song</a></button>
     </header>
-    <main></main>
+
+    <main>
+      <section class="album-area">
+        <h1 class="hero">Your Favorite Music</h1>
+        <h3 class="sidekick">At Your Finger Tips</h3>
+
+        <div class="container">
+          <form action="#" class="search">
+            <label for="search" class="field-label"
+              >Can&#x27;t find your favorite song?
+            </label>
+            <div>
+              <input
+                type="search"
+                class="search-input"
+                maxlength="256"
+                name="query"
+                placeholder="Search here..."
+                id="search"
+                required=""
+              />
+            </div>
+            <div><input type="submit" value="Search" class="buttom" /></div>
+          </form>
+        </div>
+
+        <div id="album-list">
+          <!-- TEMPLATE -->
+          <template id="song-template">
+            <div class="album-card">
+              <img class="album-image" src="galleri/usher.webp" width="150" />
+              <div class="album-content">
+                <div class="artist">Usher</div>
+                <div class="album-info">
+                  <h3 class="album-name">Album Name</h3>
+                </div>
+                <div class="divider"></div>
+                <div class="album-details">
+                  <div class="info-block">
+                    <p class="info-block-text">Release</p>
+                    <p class="info-block-text-answer info-release">2012</p>
+                  </div>
+                  <div class="info-block">
+                    <p class="info-block-text">Song Length</p>
+                    <p class="info-block-text-answer info-length">3:15</p>
+                  </div>
+                  <!-- <div class="info-block">
+                    <p class="info-block-text">Release</p>
+                    <p class="info-block-text-answer info-artist">2012</p>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </template>
+          <!-- TEMPLATE -->
+        </div>
+      </section>
+    </main>
 
     <script src="java/script.js"></script>
   </body>
 </html>
-
-<section class="album-area">
-  <h1 class="hero">Your Favorite Music</h1>
-  <h3 class="sidekick">At Your Finger Tips</h3>
-
-  <div class="container">
-    <form action="#" class="search">
-      <label for="search" class="field-label"
-        >Can&#x27;t find your favorite song?
-      </label>
-      <div>
-        <input
-          type="search"
-          class="search-input"
-          maxlength="256"
-          name="query"
-          placeholder="Search here..."
-          id="search"
-          required=""
-        />
-      </div>
-      <div><input type="submit" value="Search" class="buttom" /></div>
-    </form>
-  </div>
-
-  <div class="album-list">
-    <div class="album-card">
-      <img src="galleri/usher.webp" width="150" />
-      <div class="album-content">
-        <div class="artist">Usher</div>
-        <div class="album-info">
-          <h3 class="album-name">Album Name</h3>
-        </div>
-        <div class="divider"></div>
-        <div class="album-details">
-          <div class="info-block">
-            <p class="info-block-text">Release</p>
-            <p class="info-block-text-answer">2012</p>
-          </div>
-          <div class="info-block">
-            <p class="info-block-text">Release</p>
-            <p class="info-block-text-answer">2012</p>
-          </div>
-          <div class="info-block">
-            <p class="info-block-text">Release</p>
-            <p class="info-block-text-answer">2012</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="album-card">
-      <img src="galleri/usher.webp" width="150" />
-      <div class="album-content">
-        <div class="artist">Usher</div>
-        <div class="album-info">
-          <h3 class="album-name">Album Name</h3>
-        </div>
-        <div class="divider"></div>
-        <div class="album-details">
-          <div class="info-block">
-            <p class="info-block-text">Release</p>
-            <p class="info-block-text-answer">2012</p>
-          </div>
-          <div class="info-block">
-            <p class="info-block-text">Release</p>
-            <p class="info-block-text-answer">2012</p>
-          </div>
-          <div class="info-block">
-            <p class="info-block-text">Release</p>
-            <p class="info-block-text-answer">2012</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- TEMPLATE -->
-    <template>
-      <div class="album-card">
-        <img src="galleri/usher.webp" width="150" />
-        <div class="album-content">
-          <div class="artist">Usher</div>
-          <div class="album-info">
-            <h3 class="album-name">Album Name</h3>
-          </div>
-          <div class="divider"></div>
-          <div class="album-details">
-            <div class="info-block">
-              <p class="info-block-text">Release</p>
-              <p class="info-block-text-answer">2012</p>
-            </div>
-            <div class="info-block">
-              <p class="info-block-text">Release</p>
-              <p class="info-block-text-answer">2012</p>
-            </div>
-            <div class="info-block">
-              <p class="info-block-text">Release</p>
-              <p class="info-block-text-answer">2012</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </template>
-    <!-- TEMPLATE -->
-  </div>
-</section>

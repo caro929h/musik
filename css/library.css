@@ -52,18 +52,17 @@ h3 {
 }
 
 .hero {
+  margin: 0;
   display: flex;
   justify-content: center;
   color: var(--colour-highlight1);
-  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0));
   margin-top: 10px;
 }
 
 .sidekick {
   display: flex;
   justify-content: center;
-  color: var(--colour-text);
-  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0));
+  color: var(--colour-contrast);
   margin-bottom: 20px;
 }
 
@@ -101,7 +100,7 @@ h3 {
   background-color: transparent;
 }
 
-.album-list {
+#album-list {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
